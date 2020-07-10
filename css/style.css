@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Roboto Condensed",Arial,sans-serif;
+    color: #555;
+
+}
+header{
+    background-color: white;
+    width: 100%;
+}
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#header ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#hero{
+    background-image: url('../img/slide_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    text-align: center;
+    color: white;
+}
+#hero h1{
+    text-transform: uppercase;
+    font-weight: 700!important;
+    padding-top: 300px;
+    font-size: 50px;
+}
+#hero p{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+#hero input{
+    text-transform: uppercase;
+    padding: 8px;
+    width: 150px;
+    border: none;
+    background-color: #0054a6;
+    color: white;
+}
+#services{
+    text-align: center;
+    padding: 30px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+.items{
+    margin: 20px ;
+    background-color: white;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.05);
+    padding: 15px;
+}
+.items i{
+    color: #3cb878;
+    background-color: rgba(121,184,151,.15);
+    border-radius: 50%;
+    padding: 20px;
+}
+#services h1{
+    text-transform: uppercase;
+}
+.blue-bg{
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: #0054a6;
+    margin: auto;
+}
+.items h5{
+    padding: 10px;
+    text-transform: capitalize;
+}
+main{
+    background-color: #f8f8f8;
+}
+#services1{
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    background-color: #0054a6;
+    text-transform: uppercase;
+}
+#services2{
+    color: #0054a6;
+    padding: 8px 20px;
+    border: 1px #0054a6;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+.img-bg{
+    background-image: url('../img/slide_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    padding: 80px;
+    color: white;
+}
+.img-bg h1{
+    text-transform: uppercase;
+}
+
+.img-bg input{
+    border: none;
+    padding: 10px;
+}
+#case-studies{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+#case-studies img{
+    width: 100%;
+}
+#case-studies div{
+    margin: 10px;
+}
+#image-home img{
+    width: 100%;
+}
+#mission .blue-bg{
+    margin-left: 2px;
+}
+#mission h1{
+    text-transform: uppercase;
+    font-size: 27px;
+}
+#mission{
+    background-color: white;
+    padding-bottom: 0px!important;
+    padding: 70px;
+}
+#newsletter h3{
+    text-transform: capitalize;
+}
+#newsletter input{
+    padding: 8px;
+    border: none;
+    color: white;
+    width: 300px;
+    margin-top: 5px;
+}
+#newsletter{
+    background-color: #003663;
+    color: white;
+    padding: 70px;
+}
+#footer ul li{
+    list-style-type: none;
+}
+#footer{
+    color: white;
+    background: #002849;
+    padding: 50px;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+#bottom i{
+    padding: 20px;
+}
+#bottom{
+    border-top: 4px dotted gray;
+}
+@media(max-width: 900px){
+    .row{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+}
+@media(max-width: 500px){
+    #newsletter{
+        padding: 10px;
+    }
+    #mission{
+        padding: 0px!important;
+    }
+    .img-bg{
+        height: auto;
+    }
+    #services{
+        padding: 0px;
+    }
+    #hero h1{
+        padding-top: 150px;
+    }
+
+    .blue-bg{
+        margin-top: 10px;
+    }
+    #header ul li{
+       display: none;
+    }
+    #header{
+        justify-content: start!important;
+    }
+    #footer div{
+        border-bottom: 1px solid gray;
+    }
+    #hero h1{
+        font-size: 30px;
+    }
+}
